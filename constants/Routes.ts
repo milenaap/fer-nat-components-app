@@ -21,7 +21,7 @@ export const menuRoutes: MenuRoute[] = [
   {
     title: 'Modal',
     icon: 'copy-outline',
-    name: 'modal/index',
+    name: 'modal/_layout',
   },
   {
     title: 'InfiniteScroll',
