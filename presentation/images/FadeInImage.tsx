@@ -37,7 +37,9 @@ const FadeInImage = ({uri, style}: Props) => {
             source={{ uri}}
             style={ [ style, {opacity: animatedOpacity} ] }
             onLoadEnd={ () => {
-                fadeIn({});
+                fadeIn({
+                    duration: 2000,
+                });
                 setIsLoading(false);
             }}
         />
