@@ -222,4 +222,13 @@ ref: https://docs.expo.dev/versions/latest/sdk/linear-gradient/
 npx expo install expo-linear-gradient
 
 ```
+## Async Storage
+
+ref: https://docs.expo.dev/develop/user-interface/store-data/
+
+```sh
+
+npx expo install @react-native-async-storage/async-storage
+
+```
 
